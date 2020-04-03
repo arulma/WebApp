@@ -9,7 +9,7 @@ node {
  rtMaven.tool = "maven"
 
     stage('Clone sources') {
-        git url: 'https://github.com/arulma/webapp.git'
+        git url: 'https://github.com/arulma/WebApp.git'
     }
 
     stage('Artifactory configuration') {
